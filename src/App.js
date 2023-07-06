@@ -66,7 +66,7 @@ function App() {
         </nav>
       </header>
       <div>
-        <div id="carouselExampleControlsNoTouching" class="carousel slide" data-ride="carousel" data-interval="300">
+        <div id="carouselExampleControlsNoTouching" class="carousel slide" data-ride="carousel" data-interval="100">
           <div class="carousel-inner">
             <div class="carousel-item active">
               <div class="row g-0">
@@ -107,11 +107,11 @@ function App() {
             </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span className="carousel-control-prev-icon" aria-hidden="true" id='next'></span>
             <span class="visually-hidden">Previous</span>
           </button>
           <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span className="carousel-control-next-icon" aria-hidden="true" id='next'></span>
             <span class="visually-hidden">Next</span>
           </button>
         </div>
@@ -153,7 +153,7 @@ function App() {
   </div>
 </div>
       </div>
-      <footer id='footer'>Copyright @ 2023 Darveys.com</footer>
+      
     </div>
 
 
